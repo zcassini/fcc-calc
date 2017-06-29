@@ -110,20 +110,13 @@ const mousebuttons = { 1: '1',
                        8: '8',
                        9: '9',
                        0: '0',
-                       // decimal:  '.',
-                       // enter:    'enter',
-                       // plus:     '+',
-                       // minus:    '-',
-                       // star:    '*',
-                       // slash:    '/',
-                       // C:        'C'
-                       '.':     'decimal',
-                       '=':     'enter',
-                       '+':     'plus',
-                       '-':     'minus',
-                       '*':     'star',
-                       '/':     'slash',
-                       C:       'C'
+                       '.': 'decimal',
+                       '=': 'enter',
+                       '+': 'plus',
+                       '-': 'minus',
+                       '*': 'star',
+                       '/': 'slash',
+                       C:   'C'
                      }
 
 for (let mb in mousebuttons) registerMouseClick(mb, mousebuttons[mb])
